@@ -1,0 +1,12 @@
+1.câu trả lời cho tên và email:
+ git config --global user.name  "name"
+ git config --global user.email "your email"
+ git config --global init.defaultBranch.main
+2.
+ git config user.name "PW- name"
+ git config --global init.defaultBranch.main
+3. commit
+ git init
+ git remote add origin <ssh_link>
+ git add .
+ git commit -m"init project"
