@@ -1,1 +1,20 @@
-
+1.Cấu trúc DOM đơn giản của trang web gồm các thẻ?
+thẻ HTML:Thẻ gốc của toàn bộ DOM
+thẻ head:chứa thông tin dữ liệu như tilte,link...
+thẻ body: Chứa nội dung hiển thị chính của trang web( văn bản, hình ảnh, liên kết)
+Các thẻ con trong <body>
+- <h1>-><h6>:Tiêu đề
+-<p>:đoạn văn bản
+-<div>:Khối chứa nội dung
+-<span>:Nội dung nội tuyến
+-<a>:Liên kết
+-<img>:hình ảnh
+2.Hãy mô tả cấu trúc HTML của 1 bảng(table)
+<table>: Thẻ bao toàn bộ bảng.
+<caption>: Tiêu đề của bảng (không bắt buộc).
+<thead>: Phần đầu bảng (chứa các tiêu đề cột).
+ <tr> (table row): Hàng của bảng.
+ <th> (table header): Ô tiêu đề, thường in đậm và căn giữa.
+<tbody>: Phần thân bảng, chứa dữ liệu chính.
+ <td> (table data): Ô dữ liệu trong bảng.
+<tfoot>: Phần cuối bảng, thường dùng cho tổng kết (ví dụ: trung bình, tổng cộng).
